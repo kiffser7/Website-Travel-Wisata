@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="logo/lz.png" type="image/x-icon" />
+
+    <!-- Font Awesone CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <!-- Animate Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Jonsuh Hamburger -->
+    <link rel="stylesheet" href="dist/css/hamburgers.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+
+    <title>Travel | Indonesia</title>
+  </head>
+  <body id="home">
+    <!-- Header -->
+    <section class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <i class="fa-solid fa-mountain"></i>
+          </div>
+          <ul class="menu">
+            <li>
+              <a href="#home"> <i class="fa-solid fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="#best">
+                <i class="fa-solid fa-star"></i> Best Destination</a
+              >
+            </li>
+            <li>
+              <a href="#services"> <i class="fa-solid fa-list"></i> Service</a>
+            </li>
+            <li>
+              <a href="#gallery"> <i class="fa-solid fa-image"></i> Gallery</a>
+            </li>
+          </ul>
+          <a class="about-button" href="#about">About Us</a>
+          <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+
+        <div class="hero">
+          <h1 class="animate__animated animate__fadeInUp animate__delay-3s">
+            <span id="t1">Indonesia Travel</span> <br />
+            <span id="t2">Best Destination</span>
+          </h1>
+          <div class="hero-jargon">
+            <div class="animate__animated animate__fadeInUp animate__delay-1s">
+              <p>
+                <span>Indonesia</span> Adalah Negara yang Mempunyai Banyak
+                Sekali Destinasi Wisata yang Dapat di Explore.
+              </p>
+            </div>
+            <div class="animate__animated animate__fadeInUp animate__delay-1s">
+              <p>
+                Travel Ini berfokus Hanya Kepada
+                <span>Negara Indoensia</span> Dengan Banyaknya Destinasi yang
+                Dapat Di Explore
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header -->
+
+    <!-- Best Destination -->
+    <section class="best-destination" id="best">
+      <div class="container">
+        <div class="best-destination-box">
+          <div class="box">
+            <h1 data-aos="fade-up" data-aos-once="true">Best Destination</h1>
+            <p data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+              Berikut ini Destination pilihan Terbaik yang dapat dikunjungi.
+            </p>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-once="true"
+          >
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="images/best-destination/canggu-bali.jpg"
+                    alt="unsplash.com"
+                  />
+                  <div class="loc">
+                    <h3>Canggu Beach</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Canggu, Bali</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/best-destination/cikole-lembang-bandung.jpg"
+                    alt="unsplash.com"
+                  />
+                  <div class="loc">
+                    <h3>Cikole</h3>
+                    <p>
+                      <i class="fa-solid fa-location-dot"></i> Lembang, Bandung
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/best-destination/kelingking-beach-nusapenida-bali.jpg"
+                    alt="unsplash.com"
+                  />
+                  <div class="loc">
+                    <h3>Kelingking Beach</h3>
+                    <p>
+                      <i class="fa-solid fa-location-dot"></i> Nusa penida, Bali
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/best-destination/komodo-island-nusatenggara.jpg"
+                    alt="unsplash.com"
+                  />
+                  <div class="loc">
+                    <h3>Komodo Island</h3>
+                    <p>
+                      <i class="fa-solid fa-location-dot"></i> Nusa Tenggara
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/best-destination/mount-bromo-jawatimur.jpg"
+                    alt="unsplash.com"
+                  />
+                  <div class="loc">
+                    <h3>Mount Bromo</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Jawa Timur</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="images/best-destination/raja-ampat-papua.jpg"
+                    alt="unsplash.com"
+                  />
+                  <div class="loc">
+                    <h3>Raja Ampat</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Papua</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Best Destination -->
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services-box">
+          <div class="box">
+            <h1 data-aos="fade-up" data-aos-once="off">Our Services</h1>
+            <p data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+              Berikut ini Layanan yang dapat Kami Berikan.
+            </p>
+          </div>
+          <div class="box">
+            <div class="service">
+              <span>1</span>
+              <p data-aos="fade-down" data-aos-delay="400" data-aos-once="true">
+                Kami menyediakan layanan profesional solusi bisnis digital inovatif strategi pemasaran kreatif pengembangan website berkualitas untuk kesuksesan jangka panjang perusahaan Anda.
+              </p>
+            </div>
+            <div class="service">
+              <span>2</span>
+              <p data-aos="fade-up" data-aos-delay="350" data-aos-once="true">
+                Kami membantu transformasi digital perusahaan Anda melalui pembuatan sistem terintegrasi desain aplikasi modern optimalisasi performa berkala dan keamanan data terjamin.
+              </p>
+            </div>
+            <div class="service">
+              <span>3</span>
+              <p data-aos="fade-down" data-aos-delay="400" data-aos-once="true">
+                Tim ahli kami siap menghadirkan konten visual memukau manajemen media sosial efektif kampanye iklan berdampak tinggi untuk meningkatkan penjualan.
+              </p>
+            </div>
+            <div class="service">
+              <span>4</span>
+              <p data-aos="fade-up" data-aos-delay="350" data-aos-once="true">
+                Kami memberikan analisis pasar mendalam strategi pertumbuhan efisien pelatihan tim profesional manajemen risiko terbaik demi mencapai target performa bisnis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="gallery-box">
+          <div class="box">
+            <h1 data-aos="fade-up" data-aos-once="true">Our Gallery</h1>
+            <p data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+              Berikut ini beberapa Gambar Destinasi.
+            </p>
+          </div>
+          <div class="box">
+            <a
+              href="images/gallery/gallery-1.jpg"
+              target="_blank"
+              data-aos="fade-in"
+              data-aos-delay="400"
+              data-aos-once="true"
+            >
+              <img src="images/gallery/gallery-1.jpg" alt="unsplash.com" />
+            </a>
+            <a
+              href="images/gallery/gallery-2.jpg"
+              target="_blank"
+              data-aos="fade-in"
+              data-aos-delay="400"
+              data-aos-once="true"
+            >
+              <img src="images/gallery/gallery-2.jpg" alt="unsplash.com" />
+            </a>
+            <a
+              href="images/gallery/gallery-3.jpg"
+              target="_blank"
+              data-aos="fade-in"
+              data-aos-delay="400"
+              data-aos-once="true"
+            >
+              <img src="images/gallery/gallery-3.jpg" alt="unsplash.com" />
+            </a>
+            <a
+              href="images/gallery/gallery-4.jpg"
+              target="_blank"
+              data-aos="fade-in"
+              data-aos-delay="400"
+              data-aos-once="true"
+            >
+              <img src="images/gallery/gallery-4.jpg" alt="unsplash.com" />
+            </a>
+            <a
+              href="images/gallery/gallery-5.jpg"
+              target="_blank"
+              data-aos="fade-in"
+              data-aos-delay="400"
+              data-aos-once="true"
+            >
+              <img src="images/gallery/gallery-5.jpg" alt="unsplash.com" />
+            </a>
+            <a
+              href="images/gallery/gallery-6.jpg"
+              target="_blank"
+              data-aos="fade-in"
+              data-aos-delay="400"
+              data-aos-once="true"
+            >
+              <img src="images/gallery/gallery-6.jpg" alt="unsplash.com" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery -->
+
+    <!-- About US -->
+<section class="about" id="about">
+      <div class="container">
+        <div class="about-box">
+          <div class="box header-box">
+            <h1 data-aos="fade-up" data-aos-once="true">About Us</h1>
+            <p data-aos="fade-up" data-aos-delay="200" data-aos-once="true" class="subtitle">
+              Mengenal lebih dekat keindahan nusantara bersama kami.
+            </p>
+          </div>
+          
+          <div class="box content-grid">
+            <div class="img-wrapper" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
+              <img src="images/about/about-img.jpg" alt="Pesona Alam Indonesia" class="about-img" />
+            </div>
+            
+            <div class="text-content" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+              <span class="badge">Kenapa Memilih Kami?</span>
+              <h2>Pesona Travel Indonesia</h2>
+              <p>
+                Wisata Indonesia menawarkan keindahan dari ujung barat hingga timur. Kami hadir memberikan pengalaman liburan tak terlupakan bagi setiap wisatawan.
+              </p>
+              
+              <ul class="about-features">
+                <li>Keindahan alam tropis, gunung, & pantai eksotis</li>
+                <li>Kekayaan budaya & keramahan masyarakat lokal</li>
+                <li>Eksplorasi kuliner tradisional yang lezat</li>
+              </ul>
+
+              <a href="#best" class="btn-explore">Jelajahi Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About US -->
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <p>
+            &copy; Copyright | By <span> Muhammad Latif Zahran</span> 2026, All Right Reserved.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+
+    <!-- Pre Loader -->
+    <div class="loader">
+      <img src="loader/loader.svg" alt="loadiing.io" />
+    </div>
+    <!-- Pre Loader -->
+
+    <!-- JS -->
+    <script src="dist/js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          type: "fraction",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
